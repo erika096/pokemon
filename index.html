@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX ERIKA GUEVARA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assest/styles/style.css">
+
+
+
+</head>
+<body>
+    
+    <div class="pokedex" >
+
+
+    <img src="assest/img/imagen 1.webp" class="logo" alt="logo pokemon">
+    <div class="form-group">
+
+       <div class="row">
+
+        <div class="col-9">
+          <select name="buscatupokemon" class="form-control" id="buscatupokemon">
+            <option value="">-- Busca tu pokemon--</option>
+          </select>
+         </div>
+  
+         <div class="col-2">
+          <a href="#" class="btn btn-primary botonbuscar">BUSCAR</a>
+        </div>
+
+       </div>
+    </div>
+        <div>
+			<div id="juego">
+                <div class="row">
+                    <div class="col-6 centradoimagen2">
+                        <div class="contenedorimagen">
+                            <img id="imagenPokemon" src="assest/img/imagen 2.png" class="imagen2" alt="logo pokemon"> 
+                        </div>
+                    </div>
+                    <div class="col-6 descripción">
+                      <div class="row">
+                        <div class="col-12">
+                          <h5 class="card-title">DESCRIPCIÓN</h5>
+                          <p class="card-text card-min text-justify">
+                              Nombre: <span id="pokemonnombre"></span>
+                          </p>
+                          <p class="card-text card-min text-justify">
+                              Tipo: <span id="pokemontipo"></span>
+                          </p>
+                        </div>
+
+                        <div class="col-12">
+                          <div id="chartContainer" style="height: 200px; width: 100%; padding-top: 24%;"></div>
+
+                        </div>
+                      </div>
+                        
+                    </div>
+                </div>
+            </div>
+		</div>
+        <div class="card-body">
+        
+	
+
+
+
+         
+        </div>
+      </div>
+
+
+
+
+      <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
+    <script type="text/JavaScript" src="./assest/js/pokedex.js"></script>
+</body>
+</html>

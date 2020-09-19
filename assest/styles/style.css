@@ -1,0 +1,62 @@
+.pokedex{
+	display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E60026;
+    width: 600px;
+    height: 660px;
+    border-radius: 25px;
+}
+.botonbuscar{
+	display:block;
+	width:100px;
+	height: 37px;
+    font-size: 20px;
+    color: #000000;
+    background-color: 	#FFE900;
+	border-color: 	#FFE900;
+	align-items: center;
+    display: flex;
+	
+}
+
+#juego{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+    widows: 400px;
+    height: 426px;
+    background-color: #fff;
+    border-radius: 25px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 21px;
+}
+
+.logo{
+	width: 250px;
+	display:flex;
+	margin:0 auto;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.contenedorimagen{
+	display: flex;
+	justify-content: center;
+}
+
+.imagen2{
+	width: 250px;
+}
+
+.descripción{
+	font-size: 15px;
+
+}
+
+.centradoimagen2{
+	align-items: center;
+    display: flex;
+}
